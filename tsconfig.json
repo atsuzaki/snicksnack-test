@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "downlevelIteration": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "es5",
+    "module": "esnext",
+    "sourceMap": true,
+    "outDir": "out"
+  },
+  "include": ["src"]
+}
+

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>2D collisions</title>
+    <link href="style.css" rel="stylesheet">
+
+    <script src="/out/fps.js" defer></script>
+    <script src="/out/ui.js" defer></script>
+    <script src="/out/helpers.js" defer></script>
+    <script src="/out/quadtree.js" defer></script>
+    <script src="/out/app.js" defer></script>
+</head>
+
+<body>
+    <div id="root">
+        <div id="controls-container" class="controls-container">
+            <label>FPS: </label>
+            <label id="fpsCount"></label>
+            <br/>
+            <label for="countInput">Box count</label>
+            <input id="countInput" type="number" onchange="onCountChange()"/>
+            <br/>
+            <label for="speedInput">Speed</label>
+            <input id="speedInput" type="number" onchange="onSpeedChange()"/>
+            <br/>
+            <label for="visualizeQuadtreeCheckbox">Visualize quadtree?</label>
+            <input id="visualizeQuadtreeCheckbox" type="checkbox" onchange="onVisualizeQuadtreeChange()"/>
+        </div>
+    </div>
+    <canvas id="canvas"></canvas>
+</body>
+
+</html>
+

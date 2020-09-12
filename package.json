@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "tsc && yarn serve",
+    "start:watch": "tsc --watch && yarn serve",
+    "serve": "python -m http.server 8080"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.1",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "always"
+  }
+}
